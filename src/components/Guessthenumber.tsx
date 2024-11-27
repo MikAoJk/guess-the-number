@@ -22,7 +22,7 @@ export const Guessthenumber = () => {
     }
 
     return (
-        <div className="m-auto pb-5 mt-20 ">
+        <div className="m-auto pb-5 mt-20 ml-4 mr-4">
             <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
                 Guess a random number</h1>
             <p className="flex items-center justify-center mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
