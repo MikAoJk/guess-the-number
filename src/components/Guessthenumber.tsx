@@ -31,7 +31,7 @@ export const Guessthenumber = () => {
                 <div className="relative">
                     <input type="number" id="guessed-number-input" aria-describedby="helper-text-explanation"
                            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                           placeholder="5 or 7" required onChange={setNumberHandler}/>
+                           placeholder="example inputs 5 or 7" required onChange={setNumberHandler}/>
                 </div>
             </form>
             <div className="flex items-center justify-center mt-10">
